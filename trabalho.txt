@@ -1,0 +1,9 @@
+Objetivo
+Um programa de referência cruzada (cross-reference) lê todas as palavras de um texto e estabelece relações entre elas. Uma referência que pode ser estabelecida é identificar quantas vezes cada palavra aparece em um texto. 
+O objetivo deste trabalho é implementar um conjunto de Referências Cruzadas através de uma lista de ABPs (ou uma lista de raízes de ABPs. Cada texto submetido é a a raiz da ABP daquele texto. Cada nodo de uma ABP contém uma palavra do texto lido junto com a quantidade de vezes que a palavra aparece, tendo como critério de ordenação a ordem alfabética das palavras.
+
+Representaçaõ:
+1) Para facilitar, as palavras devem estar todas em letra maiúscula ou minúscula (ou serem convertidas para a execução da referência cruzada). Números e sinais de pontuação não são considerados;
+2) Os textos serão armazenados em uma lista de ABPs, na qual cada nodo da lista tem uma identificação do texto (pode ser um nome ou um número) e a referência para a raiz de uma ABP. É necessário escolher e definir uma forma de armazenamento para uma estrutura de lista (encadeada, vetor, em ordem alfabética ou de inserção, etc.);
+3) Cada texto pode ser digitado linha a linha, ou palavra a palavra, ou armazenado em listas declaradas no próprio arquivo fonte do programa, ou lido de um arquivo, ou de alguma outra forma;
+4) O programa deve ler um texto submetido a cada vez, identificando cada palavra (o que demarca as palavras são os espaços em branco ou a nova linha, ou os sinais de pontuação : , . ! ? ; - ), e distribuir as palavras em uma ABP em ordem alfabética. Junto com cada palavra deve estar a quantidade de vezes que a palavra aparece no texto.
